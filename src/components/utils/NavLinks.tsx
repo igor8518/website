@@ -41,6 +41,10 @@ const links = [
             path: '#',
         }],
     },
+    {
+        name: 'Log In',
+        path: '/login'
+    },
 ];
 
 export function NavLinks(props: { className?: string }): JSX.Element {
