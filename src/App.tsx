@@ -19,6 +19,7 @@ import { Footer } from './components/utils/Footer';
 import { Error404 } from './components/utils/Error404';
 
 import { Projects } from './components/projects/Projects';
+import { Dashboard } from './components/dashboard';
 
 function App(): JSX.Element {
     const downloadRef = useRef<HTMLDivElement>(null);
@@ -32,9 +33,6 @@ function App(): JSX.Element {
         <Router>
             <NavBar />
             <Switch>
-                <Route exact path="/projects">
-                    <Projects />
-                </Route>
                 <Route exact path="/">
                     <Header scrollToDownload={handleScrollTD} />
                     <Features ref={downloadRef} />
@@ -45,6 +43,15 @@ function App(): JSX.Element {
                     <Donate />
                     <Footer />
                 </Route>
+                <Route exact path="/projects">
+                    <Projects />
+                </Route>
+
+                {/* Dashboard */}
+                <Route path="/dashboard">
+                    <Dashboard />
+                </Route>
+
                 <Route component={Error404} />
             </Switch>
         </Router>

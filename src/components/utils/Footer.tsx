@@ -45,6 +45,11 @@ export const Footer = (): JSX.Element => (
                             target="_blank" rel="noreferrer">
                             <p>Privacy Policy</p>
                         </a>
+                        <a className="hover:underline"
+                            href="https://github.com/flybywiresim/manuals/raw/master/pdf/Privacy%20Policy.pdf"
+                            target="_blank" rel="noreferrer">
+                            <p>Login</p>
+                        </a>
                     </div>
                     <p className="text-gray-400 pt-2">&copy; FlyByWire Simulations and its contributors 2020-2021</p>
                     <p className="text-sm text-gray-400 pt-2">v2.0</p>
