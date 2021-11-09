@@ -28,22 +28,22 @@ export const A320Header = () => {
                         X
                     </h1>
                     <p className="max-w-xl">
-                        A community built and maintained project aiming to provide high quality and detailed aircraft
-                        for Microsoft Flight Simulator.
+                        Проект, построенный и поддерживаемый сообществом, направленный на предоставление высококачественных и детализированных самолетов
+                        для Microsoft Flight Simulator.
                     </p>
                     <div className="flex gap-4 my-5 max-w-md">
                         <Button
                             onClick={handleClick}
                             className="w-40 hover:text-blue-light bg-blue-light hover:bg-white border-2 border-blue-light"
                         >
-                            Installer
+                            Установщик
                         </Button>
 
                         <Link href="/a32nx">
                             <Button
                                 className="w-44 text-blue-light hover:text-blue-light hover:bg-white border-2 border-blue-light"
                             >
-                                Learn More
+                                Узнать больше
                             </Button>
                         </Link>
                     </div>

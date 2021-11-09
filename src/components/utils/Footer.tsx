@@ -36,16 +36,16 @@ export const Footer = () => (
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Source Code
+                    Исходный код
                 </a>
                 <span className="hover:underline cursor-pointer">
                     <Link href="/tos">
-                        Terms of Service
+                        Условия обслуживания
                     </Link>
                 </span>
                 <span className="hover:underline cursor-pointer">
                     <Link href="/privacy">
-                        Privacy Policy
+                        Политика конфиденциальности
                     </Link>
                 </span>
             </div>
@@ -56,12 +56,12 @@ export const Footer = () => (
                 target="_blank"
                 rel="noreferrer"
             >
-                Powered by
+                Создано с помощью
                 <span className="mx-2">
                     <Image src="/svg/vercel.svg" alt="Vercel" width={60} height={20} />
                 </span>
             </a>
-            <em className="text-center text-teal-100">&copy; FlyByWire Simulations and its contributors 2020-2021</em>
+            <em className="text-center text-teal-100">&copy; FlyByWire Simulations и его участники 2020-2021</em>
         </Container>
     </footer>
 );

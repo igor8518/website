@@ -8,23 +8,23 @@ export const Donate = () => (
 
             <Container className="flex relative top-0 flex-col items-center py-12 max-w-7xl lg:items-start">
                 <div className="max-w-4xl text-center lg:text-left">
-                    <h1 className="text-teal">Donate</h1>
+                    <h1 className="text-teal">Пожертвовать</h1>
                     <p>
-                        Contributions allow FlyByWire Simulations to provide better services for our users,
-                        such as fast and reliable download networks and integrated online features to enrich your flight simulation experience.
+                        Вклады позволяют FlyByWire Simulations предоставлять нашим пользователям более качественные услуги, 
+                        такие как быстрые и надежные сети загрузки и интегрированные онлайн-функции для обогащения вашего опыта моделирования полетов.
                     </p>
                     <p className="py-4">
-                        We use Open Collective to transparently manage our donations and expenses, which means you can see how we utilize donated funds at any time.
+                    Мы используем Open Collective для прозрачного управления нашими пожертвованиями и расходами, что означает, что вы можете видеть, как мы используем пожертвованные средства в любое время.
                     </p>
                 </div>
                 <div className="flex flex-col items-center space-y-3 space-x-4 text-center md:space-y-0 lg:flex-row lg:items-start lg:text-left">
                     <a href="https://opencollective.com/flybywire/" target="_blank" rel="noreferrer">
                         <Button className="w-40 hover:text-teal-light-contrast bg-teal-light-contrast hover:bg-white border-2 border-teal-light-contrast">
-                            Donate
+                        Пожертвовать
                         </Button>
                     </a>
                     <em className="self-center max-w-prose text-teal-100">
-                        *No profit is generated from donations. Donating does not guarantee access to additional content nor its exclusivity if such content is ever given.
+                        *Пожертвования не приносят никакой прибыли. Пожертвование не гарантирует доступ к дополнительному контенту или его эксклюзивность, если такой контент когда-либо будет предоставлен.
                     </em>
                 </div>
             </Container>

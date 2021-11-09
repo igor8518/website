@@ -6,7 +6,7 @@ export const Hero = () => (
             <div className="flex flex-row justify-between items-end">
                 <div>
                     <h2 className="mb-2 ml-2 text-2xl font-medium tracking-widest uppercase">
-                        DISCOVER THE
+                    ОТКРОЙТЕ ДЛЯ СЕБЯ
                     </h2>
                     <h1 className="text-7xl font-medium sm:text-8xl">
                         <span className="text-blue-light">A32</span>
@@ -14,10 +14,10 @@ export const Hero = () => (
                         X
                     </h1>
                     <h1 className="mt-2 w-2/3 text-xl">
-                        &quot;The potential within the A32NX project is extremely promising and its future is bright in the task of bringing the aircraft to a level of high fidelity.&quot;
+                        &quot;Потенциал в рамках проекта A32NX чрезвычайно перспективен, и его будущее является ярким в задаче доведения самолета до уровня высокой точности.&quot;
                     </h1>
                     <p className="mt-4 text-xl text-gray-200">
-                        - Dan, Real Airbus A320 Pilot
+                        - Дэн, Реальный пилот Airbus A320
                     </p>
                     <div className="flex py-5 max-w-md">
 
@@ -25,7 +25,7 @@ export const Hero = () => (
                             <Button
                                 className="mr-3 w-40 text-xl font-bold hover:text-blue-light bg-blue-light hover:bg-white border-2 border-blue-light"
                             >
-                                Installer
+                                Установщик
                             </Button>
                         </a>
 
@@ -33,7 +33,7 @@ export const Hero = () => (
                             <Button
                                 className="w-40 text-xl font-bold text-blue-light hover:text-blue-light hover:bg-white border-2 border-blue-light"
                             >
-                                Download
+                                Скачать
                             </Button>
                         </a>
                     </div>

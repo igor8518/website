@@ -13,73 +13,73 @@ export const ExtendedFeatures = () => (
         >
             <Feature key="EFB">
                 <FeatureTitle>
-                    Electronic Flight Bag
+                    Электронная Летная Сумка (EFB)
                 </FeatureTitle>
                 <FeatureBody>
-                    The EFB is an integrated tablet with a handy toolkit, a settings page, performance tools, and more.
+                    EFB - это интегрированный планшет с удобным набором инструментов, страницей настроек, инструментами производительности и многим другим.
                 </FeatureBody>
             </Feature>
 
             <Feature key="Custom Soundpack">
                 <FeatureTitle>
-                    Custom Soundpack
+                    Собственный звуковой пакет
                 </FeatureTitle>
                 <FeatureBody>
-                    Enjoy sounds like never before, the A32NX includes a fully custom and highly accurate soundpack.
+                    Наслаждайтесь звуками, как никогда раньше, A32NX включает в себя полностью настраиваемый и высокоточный звуковой пакет.
                 </FeatureBody>
             </Feature>
 
             <Feature key="Simbrief Integration">
                 <FeatureTitle>
-                    Simbrief Integration
+                    Интеграция с Simbrief
                 </FeatureTitle>
                 <FeatureBody>
-                    Make flight plan entry a breeze with the SimBrief integration, all it takes is one click and you are ready to go!
+                    Сделайте ввод плана полета легким с помощью интеграции SimBrief, все, что требуется, - это один клик, и вы готовы к полету!
                 </FeatureBody>
             </Feature>
 
             <Feature key="Product Installer">
                 <FeatureTitle>
-                    Product Installer
+                    Установщик продуктов FBW
                 </FeatureTitle>
                 <FeatureBody>
-                    FlyByWire has a custom product installer, which makes the task of installing all FlyByWire products hassle free.
+                    У FlyByWire есть собственный установщик продуктов, который упрощает задачу установки всех продуктов FlyByWire.
                 </FeatureBody>
             </Feature>
 
             <Feature key="Experimental Variations">
                 <FeatureTitle>
-                    Experimental Variations
+                    Экспериментальные вариации
                 </FeatureTitle>
                 <FeatureBody>
-                    Want to experiment with our new features? You can! We have several ready to test branches with experimental features on our installer!
+                    Хотите поэкспериментировать с нашими новыми функциями? Вы можете! У нас есть несколько готовых к тестированию ветвей с экспериментальными функциями в нашем установщике!
                 </FeatureBody>
             </Feature>
 
             <Feature key="Constant Additions">
                 <FeatureTitle>
-                    Constant Additions
+                    Постоянные обновления
                 </FeatureTitle>
                 <FeatureBody>
-                    The A32NX development branches are updated almost daily with brand new features you can test right away!
+                    Ветки разработки A32NX обновляются почти ежедневно с совершенно новыми функциями, которые вы можете протестировать прямо сейчас!
                 </FeatureBody>
             </Feature>
 
             <Feature key="Documentation">
                 <FeatureTitle>
-                    Documentation
+                    Документтация
                 </FeatureTitle>
                 <FeatureBody>
-                    FlyByWire has created several tutorials and documents to make learning the A320 quickly and accurately possible for anyone!
+                    FlyByWire создала несколько учебных пособий и документов, чтобы сделать быстрое и точное изучение A320 возможным для любого виртуального пилота!
                 </FeatureBody>
             </Feature>
 
             <Feature key="Open Source">
                 <FeatureTitle>
-                    Open Source
+                    Открытый исходный код
                 </FeatureTitle>
                 <FeatureBody>
-                    The FlyByWire A32NX is completely open sourced, anyone can contribute to the project, and it can be freely reused under our licence.
+                    FlyByWire A32NX имеет полностью открытый исходный код, любой желающий может внести свой вклад в проект, и его можно свободно использовать повторно по нашей лицензии.
                 </FeatureBody>
             </Feature>
         </div>

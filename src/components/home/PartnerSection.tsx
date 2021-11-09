@@ -14,7 +14,7 @@ type PartnerProps = {
 };
 
 export const PartnerImage = (props: ImageProps) => (
-    <Image src={props.src} alt="Partner" width={180} height={150} objectFit="contain" />
+    <Image src={props.src} alt="Парнтнеры" width={180} height={150} objectFit="contain" />
 );
 
 export const Partner = (props: PropsWithChildren<PartnerProps>) => (

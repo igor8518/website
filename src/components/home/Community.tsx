@@ -52,16 +52,16 @@ export const Community = () => {
         <section className="flex flex-col justify-between items-center text-blue-dark-contrast bg-gray-50 lg:flex-row">
             <Container className="flex flex-col py-12 max-w-6xl lg:px-24">
                 <span className="mb-3 w-24 h-2 bg-teal-light-contrast rounded-full" />
-                <h1>Community Insights</h1>
+                <h1>Идеи сообщества</h1>
                 <p className="max-w-prose text-gray-800">
-                    Discover the extensive community behind every FlyByWire Simulations aircraft - a vibrant and active online group that prioritises collaborative work and openness.
+                    Откройте для себя обширное сообщество, стоящее за каждым самолетом FlyByWire Simulations - яркой и активной онлайн-группой, которая уделяет приоритетное внимание совместной работе и открытости.
                 </p>
 
                 <div className="grid grid-cols-2 gap-y-8 my-6 sm:grid-cols-4">
-                    <Statistic statCount={liveFlights} statName="Live Flights" />
-                    <Statistic statCount={commitCount} statName="Commits" />
-                    <Statistic statCount={contributorCount} statName="Contributors" />
-                    <Statistic statCount="1M+" statName="Downloads" />
+                    <Statistic statCount={liveFlights} statName="Полеты в настоящее время" />
+                    <Statistic statCount={commitCount} statName="Вклады" />
+                    <Statistic statCount={contributorCount} statName="Разработчики" />
+                    <Statistic statCount="1M+" statName="Скачивания" />
                 </div>
 
                 <div className="my-8">
@@ -73,8 +73,8 @@ export const Community = () => {
                             Discord
                         </CardTitle>
                         <CardBody>
-                            Our Discord server is where we plan the entirety of our projects and provide most of our support.
-                            Join us to chat with other members of the community, get started with contributing, or ask us a question!
+                            Наш сервер Discord - это место, где мы планируем все наши проекты и предоставляем большую часть нашей поддержки.
+                            Присоединяйтесь к нам, чтобы пообщаться с другими участниками сообщества, начать вносить свой вклад или задать нам вопрос!
                         </CardBody>
 
                         <a
@@ -83,7 +83,7 @@ export const Community = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            Join the Community
+                            Присоединиться к сообществу
                             <IconArrowRight className="inline-flex mb-1 ml-1" size={20} stroke={2} />
                         </a>
                     </Card>
